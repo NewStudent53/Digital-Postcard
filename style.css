@@ -16,17 +16,25 @@ body{
     padding: 15px;
 }
 
-.postcard-header{
+.header{
     overflow: hidden;
 }
 
-.postcard-header img {
+.header img {
     max-width: 60px;
     float: right;
 }
 
-.postcard-body{
+.middle{
     overflow: hidden;
+}
+
+.middle input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 240px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 input{
@@ -56,20 +64,12 @@ h1{
     font-size: 35px;
 }
 
-.postcard-footer{
+.bottom{
     padding: 10px;
     text-align: center;
 }
 
-.postcard-footer input[type=submit]{
+.bottom input{
     border: none;
-    border-bottom: 1px solid gray;
-}
-
-.postcard-body input[type=text]{
-    border: none;
-    border-bottom: 1px solid gray;
-    width: 240px;
-    margin-bottom: 10px;
-    padding: 5px;
+    border-bottom: 1px black;
 }
